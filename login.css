@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fp.jpg);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 50px 50px;
+    background-color: white;
+    margin: 20px 100px;
+    border-radius: 20px;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password],
+input[type="tel"],
+input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #b93939;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #5EA617;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.regis:link,
+.regis:visited {
+    background-color: #5EA617;
+    color: white;
+    padding: 20px 485px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bienbenido {
+    background-image: url(im10.jpg);
+}
+
+.p1 {
+    background-color: rgba(255, 0, 0, 0.664);
+    padding: 50px 50px;
+    font-size: 50px;
+    margin: 20px;
+    border-radius: 200px;
+}
+
+.bd:link,
+.bd:visited {
+    background-color: #5fa61700;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 500px;
+    font-size: 60px;
+}
+
+h4 {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.recu {
+    background-image: url(im11.jpg);
+}
+
+.recup {
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 50px 50px;
+    font-size: 25px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.inte {
+    font-size: 70px;
+    color: red;
+}
